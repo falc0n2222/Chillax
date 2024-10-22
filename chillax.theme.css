@@ -24,17 +24,17 @@
 @import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
 /* removable addons */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+/* @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css"); */
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
+/* @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); */
+/* @import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css"); */
 
 /*additional addons*/ /*(remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+/* @import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css"); /*
 
 
 /*Chillax Roots*/
@@ -43,9 +43,9 @@
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
     /*bg dev suggestions*/
-    --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
+    --wallpaper: url("https://i.ibb.co/9w0rkJ2/purple-Plane.jpg");
     /*modern background selection*/
-    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
+    --modern-dark-bg: url("https://i.ibb.co/9w0rkJ2/purple-Plane.jpg");
     --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
 }
 
@@ -71,15 +71,15 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
-    --edited-message: " EDITED ✎ ";
+    --user-name: "Daddy";
+    --edited-message: " Edit logged ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
     --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
-    --rs-small-spacing: 0px;
+    /* --rs-small-spacing: 0px;
     --rs-large-spacing: 0px;
     --rs-medium-spacing: 0px;
     --rs-small-width: 2.5px;
@@ -87,19 +87,19 @@
     --rs-large-width: 4.5px;
     --rs-avatar-shape: 50%;
     --rs-online-color: #1df594;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
+    --rs-idle-color: #f09800;
+    --rs-dnd-color: #ff0000;
     --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
+    --rs-streaming-color: #5c01f8;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
+    --rs-phone-visible: block; /* change it to `none` to disable mobile icon
     --rs-phone-color: var(--rs-online-color);
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 251, 84, 84;
+    --accentcolor: 98, 3, 252;
     /* chillax colours hex */
-    --accentcolorV2: #fb5454;
+    --accentcolorV2: #520ef0; /* #520ef0 */
 
 
     /* settings modal root */
@@ -113,7 +113,7 @@
 
     /* placeholder texts/values */
     /* input fields */
-    --chillax-input-field: "Life is so much easier when you just take a moment to chill";
+    --chillax-input-field: "Baby do you remember when? Fireworks at lake Michigan";
     /* input fields  when the channel is locked*/
     --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
     /* typing indicator: when a single person is typing */
@@ -207,6 +207,7 @@
  IconPack                                 by Lavender
  Discolored                               by Nyri4
  Better Spotify Control                   by Uri
+ Purple Plane Version                     by Fallins (falcon)
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
