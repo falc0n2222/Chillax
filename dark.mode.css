@@ -1007,12 +1007,6 @@ html.theme-dark .guilds_a4d4d9 .scroller_fea3ef .circleIconButton_db6521:hover {
 }
 
 /* colored links */
-/* YouTube */
-[href*="youtu.be"],
-[href*="youtube.com"] {
-    color: #c4302b !important;
-}
-
 /* Twitch */
 [href*="twitch.tv"] {
     color: #b700ff !important;
@@ -1038,23 +1032,6 @@ html.theme-dark .guilds_a4d4d9 .scroller_fea3ef .circleIconButton_db6521:hover {
 /* Twitter */
 [href*="twitter.com/"] {
     color: #00acee !important;
-}
-
-/* GitHub */
-[href*="github.com"] {
-    color: #00f0a8 !important;
-}
-
-/* Imgur */
-[href*="i.imgur.com"] {
-    color: #89c623 !important;
-}
-
-/* Steam */
-[href*="store.steampowered.com"],
-[href*="https://s.team"],
-[href*="steamcommunity.com/"] {
-    color: #1b2838 !important;
 }
 
 /* Spotify */
