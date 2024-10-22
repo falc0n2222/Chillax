@@ -200,7 +200,7 @@ html.theme-dark .menu_d90b3d {
 }
 
 html.theme-dark .wordmark_a934d8::before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ f a l l i n s";
     font-size: 12px;
     font-family: "Poiret one" !important;
     position: fixed;
@@ -216,7 +216,7 @@ html.theme-dark .wordmark_a934d8::before {
 }
 
 .wordmark_a934d8:hover:before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ f a l l i n s";
     letter-spacing: 2px;
 }
 
@@ -886,7 +886,7 @@ html.theme-dark {
 }
 
 #app-mount .info_c5a741 .line_c5a741:last-child:after {
-    content: "Chillax " var(--cl-appearance) " 🎮";
+    content: "Fallins " var(--cl-appearance) " 🎮";
     display: block;
 }
 
