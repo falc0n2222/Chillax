@@ -3261,7 +3261,7 @@ html.theme-dark .nameTag-35jqbZ {
 
 html.theme-dark .connectedAccountContainer_ab12c6 {
     border-radius: 8px;
-    background-color: var(--profile-gradient-secondary-color);
+    /* background-color: var(--profile-gradient-secondary-color); */
 
     border: none !important;
     width: 97%;
