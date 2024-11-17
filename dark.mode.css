@@ -3693,8 +3693,11 @@ html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d4
 }
 
 /* Hide the Discovery button in the server list */
-div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]) {
+div[data-list-item-id="guildsnav___guild-discover-button"],
+.circleIconButton_db6521.fixedDiscoveryIcon_fea3ef {
     display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
 }
 
 /* Removes floating server list footer */
