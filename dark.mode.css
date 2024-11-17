@@ -27,6 +27,11 @@
     display: none;
 }
 
+/* Hide the annoying red NEW button for unread pings in the server list */
+.active_edf32f.mention_edf32f.unreadMentionsBar_fea3ef.bar_edf32f {
+    display: none;
+}
+
 /*spotify controls error background*/
 .panels_a4d4d9 span {
     background: transparent !important;
