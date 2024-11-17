@@ -27,6 +27,11 @@
     background: transparent !important;
 }
 
+/* Hide the Discovery button in the server list */
+div[data-list-item-id="guildsnav___guild-discover-button"] {
+    display: none !important;
+}
+
 /*friends tab*/
 .content_a4d4d9 > div,
 .panels_a4d4d9 {
