@@ -28,7 +28,7 @@
 }
 
 /* Hide the annoying red NEW button for unread pings in the server list */
-.active_edf32f.mention_edf32f.unreadMentionsBar_fea3ef.bar_edf32f {
+.unreadMentionsFixedFooter_fea3ef.unreadMentionsIndicatorBottom_fea3ef {
     display: none;
 }
 
