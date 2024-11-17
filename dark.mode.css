@@ -27,11 +27,6 @@
     background: transparent !important;
 }
 
-/* Hide the Discovery button in the server list */
-div[data-list-item-id="guildsnav___guild-discover-button"] {
-    display: none !important;
-}
-
 /*friends tab*/
 .content_a4d4d9 > div,
 .panels_a4d4d9 {
@@ -3695,4 +3690,9 @@ html.theme-dark .link_c91bad:has(.highlighted_ec8679) {
 /* Custom server icons */
 html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
     content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
+}
+
+/* Hide the Discovery button in the server list */
+div[data-list-item-id="guildsnav___guild-discover-button"] {
+    display: none !important;
 }
