@@ -22,6 +22,11 @@
     background: transparent;
 }
 
+/* Hide the Discovery button in the server list */
+.footer_f8ec41 {
+    display: none;
+}
+
 /*spotify controls error background*/
 .panels_a4d4d9 span {
     background: transparent !important;
@@ -3690,9 +3695,4 @@ html.theme-dark .link_c91bad:has(.highlighted_ec8679) {
 /* Custom server icons */
 html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
     content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
-}
-
-/* Hide the Discovery button in the server list */
-.footer_f8ec41 {
-    display: none;
 }
