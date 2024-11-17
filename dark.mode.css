@@ -28,14 +28,8 @@
 }
 
 /* Hide the Discovery button in the server list */
-div[data-list-item-id="guildsnav___guild-discover-button"],
-.circleIconButton_db6521.fixedDiscoveryIcon_fea3ef {
+div[data-list-item-id="guildsnav___guild-discover-button"] {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    overflow: hidden !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
 }
 
 /*friends tab*/
