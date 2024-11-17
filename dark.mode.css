@@ -3695,4 +3695,6 @@ html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d4
 /* Hide the Discovery button in the server list */
 div[data-list-item-id="guildsnav___guild-discover-button"] {
     display: none !important;
+    visibility: hidden;
+    background: transparent !important;
 }
