@@ -27,6 +27,10 @@
     display: none;
 }
 
+.footer_d71945 {
+    display: none;
+}
+
 /* Hide the annoying red NEW button for unread pings in the server list */
 .unreadMentionsFixedFooter_fea3ef.unreadMentionsIndicatorBottom_fea3ef {
     display: none;
