@@ -4,7 +4,7 @@
 }
 
 .wordmark__421ed::before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ f a l c o n";
     font-size: 12px;
     font-weight: 900;
     font-family: "Poiret one" !important;
@@ -28,7 +28,7 @@ html.theme-light .wordmark__421ed::before {
 }
 
 .wordmark__421ed:hover:before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ f a l c o n";
     letter-spacing: 2px;
 }
 
