@@ -83,7 +83,7 @@
 
 
     /*glow radial status*/ /*must end in px*/
-    --rs-small-spacing: 0px;
+    /* --rs-small-spacing: 0px;
     --rs-large-spacing: 0px;
     --rs-medium-spacing: 0px;
     --rs-small-width: 2.5px;
@@ -96,8 +96,8 @@
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
-    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block; change it to `none` to disable mobile icon 
+    --rs-phone-color: var(--rs-online-color); */
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
