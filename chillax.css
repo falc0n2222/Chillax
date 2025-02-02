@@ -61,7 +61,7 @@
 
 /*transparent scrollbar*/
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 2px;
 }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece {
@@ -73,6 +73,7 @@
     border: none !important;
     background-clip: content-box !important;
     background: var(--chillax-scroller-color) !important;
+    width: 2px;
 }
 
 /*transparent call background*/
