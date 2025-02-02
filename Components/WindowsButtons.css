@@ -6,7 +6,7 @@
 .wordmark__421ed::before {
     content: "‏‏‎ f a l c o n";
     font-size: 12px;
-    font-weight: 900;
+    /* font-weight: 900; Don't like this, makes it look bold */
     font-family: "Poiret one" !important;
     position: fixed;
     background: var(--window-colour);
