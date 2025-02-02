@@ -126,7 +126,7 @@
     --chillax-input-typing-indicator-many-person: "are potentially typing";
 
     /* scroller (by default transparent) */
-    --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
+    --chillax-scroller-color: #6203FC; /* change `transparent` to some other hex color to make it visible */
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
