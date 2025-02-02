@@ -30,13 +30,13 @@
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+/* @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); */
 /* @import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css"); */
 @import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*use the below css if you are experiencing lag (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");
 /* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
 
