@@ -29,7 +29,7 @@
 }
 
 .bar__3b95d.unreadMentionsBar_ef3116.mention__3b95d.active__3b95d {
-    background: transparent !important;
+    display: none !important;
 }
 
 /*spotify controls error background*/
