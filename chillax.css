@@ -28,11 +28,6 @@
     background: transparent;
 }
 
-.bar__3b95d,
-.bar__3b95d * {
-    display: none !important;
-}
-
 /*spotify controls error background*/
 .panels_c48ade span {
     background: transparent !important;
