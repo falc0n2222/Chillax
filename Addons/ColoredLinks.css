@@ -1,9 +1,3 @@
-/* YouTube */
-[href*="youtu.be"],
-[href*="youtube.com"] {
-    color: #c4302b !important;
-}
-
 /* Twitch */
 [href*="twitch.tv"] {
     color: #b700ff !important;
