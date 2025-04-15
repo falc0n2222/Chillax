@@ -21,24 +21,24 @@
 */
 
 /* CHILLAX theme entry point */
-@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
+@import url("https://raw.githubusercontent.com/falc0n2222/Chillax/refs/heads/main/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://chillax-org.github.io/Discolored/main.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+/* @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css"); */
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
-@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
+/*@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css"); */
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css"); */
 @import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*use the below css if you are experiencing lag (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");
 /* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
+@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");
 
 
 /*Chillax Roots*/
@@ -47,9 +47,9 @@
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
     /*bg dev suggestions*/
-    --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
+    --wallpaper: url("https://i.ibb.co/9w0rkJ2/purple-Plane.jpg");
     /*modern background selection*/
-    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
+    --modern-dark-bg: url("https://i.ibb.co/9w0rkJ2/purple-Plane.jpg");
     --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
 }
 
@@ -75,7 +75,7 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
+    --user-name: "Daddy";
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
@@ -83,7 +83,7 @@
 
 
     /*glow radial status*/ /*must end in px*/
-    --rs-small-spacing: 0px;
+    /* --rs-small-spacing: 0px;
     --rs-large-spacing: 0px;
     --rs-medium-spacing: 0px;
     --rs-small-width: 2.5px;
@@ -96,14 +96,14 @@
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
-    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block;
+    --rs-phone-color: var(--rs-online-color); */
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 251, 84, 84;
+    --accentcolor: 98, 3, 252;
     /* chillax colours hex */
-    --accentcolorV2: #fb5454;
+    --accentcolorV2: #530ef1;
 
 
     /* settings modal root */
@@ -117,13 +117,13 @@
 
     /* placeholder texts/values */
     /* input fields */
-    --chillax-input-field: "Life is so much easier when you just take a moment to chill";
+    --chillax-input-field: "Baby do you remember when? Fireworks at lake Michigan?";
     /* input fields  when the channel is locked*/
     --chillax-input-field-locked: "Unfortunately, you can't chill in this channel";
     /* typing indicator: when a single person is typing */
-    --chillax-input-typing-indicator-one-person: "is smashing some buttons";
+    --chillax-input-typing-indicator-one-person: "is potentially typing";
     /* typing indicator: when more than one person is typing */
-    --chillax-input-typing-indicator-many-person: "are smashing some buttons";
+    --chillax-input-typing-indicator-many-person: "are potentially typing";
 
     /* scroller (by default transparent) */
     --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
@@ -202,6 +202,7 @@
  LofiTurtle                               Dev & Maintainer
  Inmoresentum                             Dev & Maintainer
  Demented_Elmo                            Dev
+ falcon                                   Fork & Version Maintainer
 =================================================================
  Embeds                                   by Alexis WyvernZu
  Active Now CSS                           by Cedrick
