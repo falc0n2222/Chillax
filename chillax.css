@@ -40,6 +40,15 @@ nav.guilds_c48ade {
   display: none;
 }
 
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
