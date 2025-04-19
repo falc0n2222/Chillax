@@ -21,6 +21,9 @@
 @import url('https://warrayquipsome.github.io/Chillax/Components/ChannelHeader.css');
 @import url('https://warrayquipsome.github.io/Chillax/Components/EmojiPicker.css');
 
+/****REVERT TO OLD UI****/
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
