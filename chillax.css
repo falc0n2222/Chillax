@@ -23,7 +23,6 @@
 
 /****REVERT TO OLD UI, (all taken from the Vencord discord! Huge thank you to the users who posted these!)****/
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
-@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
 
 .visual-refresh section.panels_c48ade {
   left: calc(var(--custom-guild-list-width) + var(--space-xs));
