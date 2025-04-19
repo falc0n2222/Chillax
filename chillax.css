@@ -21,8 +21,24 @@
 @import url('https://warrayquipsome.github.io/Chillax/Components/ChannelHeader.css');
 @import url('https://warrayquipsome.github.io/Chillax/Components/EmojiPicker.css');
 
-/****REVERT TO OLD UI****/
+/****REVERT TO OLD UI, (all taken from the Vencord discord! Huge thank you to the users who posted these!)****/
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+
+.visual-refresh section.panels_c48ade {
+  left: calc(var(--custom-guild-list-width) + var(--space-xs));
+  width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
+  box-sizing: content-box;
+
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+.sidebar_c48ade:after {
+  display: none;
+}
 
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
