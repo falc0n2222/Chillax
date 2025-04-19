@@ -49,6 +49,8 @@ span[class*="timestampInline_"] {
   font-size: 0px !important;
 }
 
+.avatarPopover__2d0a, .statusPopover__2d0ab{display:none;}
+
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
