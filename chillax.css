@@ -50,14 +50,14 @@ span[class*="timestampInline_"] {
 }
 
 .visual-refresh {
-    --custom-channel-textarea-text-area-height: 56px;
+    --custom-channel-textarea-text-area-height: 56.3px;
     .form_f75fb0 {
-        margin: 0 8px 8px 8px;
+        margin: 0 8px 17.5px 8px;
         padding: 0;
         --chatbar-border-color: var(--border-faint);
     }
     .channelTextArea_f75fb0 {
-        margin: 0;
+        margin: 0px;
         border-color: var(--chatbar-border-color);
         transition: none;
     }
@@ -66,7 +66,7 @@ span[class*="timestampInline_"] {
         left: 0;
         right: 0;
         background-color: var(--chat-background-default);
-        padding: 0 8px;
+        padding: 0 12px;
         border-radius: var(--radius-sm) var(--radius-sm) 0 0;
         border: 1px solid var(--chatbar-border-color);
         border-bottom: none;
