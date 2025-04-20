@@ -1,4 +1,4 @@
-<h1 align="center">wq presents:   C H I L L A X </h1>
+<h1 align="center">wq & falcon present:   C H I L L A X (heavily modified) </h1>
 
 ![chillax cover](https://github.com/warrayquipsome/Chillax/assets/84565593/eedd9969-6f6d-4cf0-8885-89cefa473085)
 
@@ -20,55 +20,21 @@
 # Installation
 
 <details>
-<summary>BetterDiscord</summary>
+<summary>Any Client</summary>
 
-To download the theme in [Better Discord](https://betterdiscord.app/theme/Chillax) Site:
+To install and use the theme on [Vencord](https://vencord.dev/), [BetterDiscord](https://betterdiscord.app/), [Equicord](https://github.com/Equicord/Equicord), or any other client that supports themes for that matter:
 
-1. Press the download button.
-2. Open your Discord and go User Settings > Themes > Open Themes Folder.
-3. Drag the theme.css file you just downloaded into the theme folder that opened.
-4. Go back to Discord and enable the theme and VOILA you did it.
-
-To download the theme from GitHub:
-
-1. Go to [chillax.theme.css](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
-2. Press the copy raw contents button.
-3. Edit the theme.css in your Discord.
-4. Select everything and paste in the copied code.
-
-And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS4w"
+1. Go to [chillax.theme.css](https://github.com/falc0n2222/Chillax/blob/main/chillax.theme.css)
+2. Download it.
+3. Go to your client's themes tab.
+4. Open the themes folder.
+5. Put the chillax.theme.css file inside.
+6. It should now automatically load the theme and apply, if not you can enable it manually.
+7. Modify/Change any `variables/css` if you want to.
 
 </details>
 
-<details>
-<summary>Vencord</summary>
-
-To install and use the theme on [Vencord](https://vencord.dev/)
-
-1. Go to [chillax.theme.css](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
-2. Press the copy raw contents button.
-3. Go to your Vencord themes tab.
-4. Click the "Open QuickCSS file" button.
-5. Paste the contents you copied from before.
-6. It should now automatically load the theme and apply.
-7. Modify/Change any `variables/css` if you need to.
-
-</details>
-
-<details>
-<summary>Raw GitHub Links</summary>
-
-Raw links are also another option for using the theme, and most client mod supports them,
-but there are some inconveniences.
-For instance, when the theme gets updated,
-you will **lose all the customization** that you did on top of Chillax.
-So they are **not recommended** when it comes to customizations.
-
-To overcome this issue, we recommend you to fork the [Chillax](https://github.com/warrayquipsome/Chillax)
-repository and make changes in the newly forked repository and use the raw link of the forked repository.
-This way you will have the full control over `update/patch` and there will be **no surprises**.
-
-</details>
+I personally like and use Equicord the most as it is a fork of Vencord that has A LOT more plugins and features (it's also regularly updated and I recommend everyone to use it instead).
 
 **Disclaimer:** _We do not hold any responsibility for the aforementioned [client mods/wrapper](#Installation).
 Please use them based on your own judgement._
@@ -86,28 +52,26 @@ Please use them based on your own judgement._
 
 # What do I do if the theme is outdated?
 
-Well, it depends on how you installed the theme.
-If you used the [Better Discord Site](https://betterdiscord.app/theme/Chillax) then you
-can go there and download the latest one and replace it with the old one.
-For other methods [described above](#Installation) you can always get
-the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Chillax).
+Most of the updates that I do to this theme will automatically get applied when you refresh your client,
+however if the chillax.theme.css file is updated then you'll have to reinstall the theme. 
+(Or look at the changes themselves and modify the file accordingly)
 
 # Support
 
-For problems installing or using the theme,
-join the support server [https://discord.gg/DrfX6286kF](https://discord.gg/DrfX6286kF)
-and ask for help.
+None as of yet.
 
 # Authors
 
 ## Owner
 
 - › [Wq](https://github.com/warrayquipsome)
+- › [falcon](https://github.com/falc0n2222) (Owner and maintainer of fork)
 
 ## Maintainers and Dev
 
 - › [LofiTurtle](https://github.com/LofiTurtle)
 - › [Inmoresentum](https://github.com/Inmoresentum)
+- › [falcon](https://github.com/falc0n2222) (Owner and maintainer of fork)
 
 ## Helper
 
