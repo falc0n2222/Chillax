@@ -26,7 +26,7 @@
 
 .visual-refresh section.panels_c48ade {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px);
-    left: var(--custom-guild-list-width);
+    left: calc(var(--custom-guild-list-width) + 2px);
     bottom: 20px;
     border-radius: 8px;
     border: none;
