@@ -111,6 +111,11 @@ span[class*="timestampInline_"] {
     background: transparent;
 }
 
+/* Hide apps button in message box */
+.channelAppLauncher_e6e74f {
+    display: none !important;
+}
+
 /* removes title header */
 .title__85643 {
     display: none !important;
