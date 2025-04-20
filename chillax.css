@@ -111,6 +111,11 @@ span[class*="timestampInline_"] {
     background: transparent;
 }
 
+/* removes title header */
+.title__85643 {
+    display: none !important;
+}
+
 /* Make notification badges match accent color */
 .lowerBadge_cc5dd2 .numberBadge__2b1f5 {
     background-color: rgba(var(--accentcolor), 1) !important;
