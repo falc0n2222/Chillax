@@ -168,7 +168,6 @@ span[class*="timestampInline_"] {
 /* Member list */
 .container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
     background-color: transparent !important;
-    backdrop-filter: blur(4px);
 }
 
 /* Placeholder for unloaded messages */
