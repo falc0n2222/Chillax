@@ -26,9 +26,9 @@
 
 .visual-refresh section.panels_c48ade {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px);
-    left: calc(var(--custom-guild-list-width) + 2px);
+    left: calc(var(--custom-guild-list-width) + 4px);
     bottom: 20px;
-    border-radius: 8px;
+    border-radius: 7px;
     border: none;
 }
 
