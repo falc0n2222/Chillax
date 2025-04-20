@@ -167,7 +167,8 @@ span[class*="timestampInline_"] {
 
 /* Member list & Activity cards */
 .container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
-    background-color: rgba(20, 20, 20, 0.15) !important;
+    background-color: rgba(20, 20, 20, 0.1) !important;
+    border-radius: 6px !important;
 }
 
 /* Activity Card blur */
