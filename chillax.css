@@ -116,6 +116,10 @@ span[class*="timestampInline_"] {
     display: none !important;
 }
 
+.chat_f02135, .container__01ae2, .chatLayerWrapper__01ae2 {
+    background-color: transparent !important;
+}
+
 /* removes title header */
 .title__85643 {
     display: none !important;
