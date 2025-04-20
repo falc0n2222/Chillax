@@ -166,8 +166,21 @@ span[class*="timestampInline_"] {
 }
 
 /* Member list & Activity cards */
-.container_c8ffbb, .container__0f2e8, .members_c8ffbb, .member_c8ffbb {
-    background-color: transparent !important;
+.container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
+    background-color: rgba(20, 20, 20, 0.15) !important;
+}
+
+/* Activity Card blur */
+.popoutContentWrapper_af3b89 {
+    background-color: rgba(30, 30, 30, 0.5) !important;
+}
+
+.interactionsContainer_af3b89 {
+    background-color: rgba(30, 30, 30, 0.5) !important;
+}
+
+.container__0f2e8 {
+    background-color: rgba(35, 35, 35, 0.3) !important;
 }
 
 /* Placeholder for unloaded messages */
