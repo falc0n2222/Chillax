@@ -28,7 +28,7 @@
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px);
     left: calc(var(--custom-guild-list-width) + 6px);
     bottom: 20px;
-    border-radius: 7px;
+    border-radius: 8px;
     border: none;
 }
 
