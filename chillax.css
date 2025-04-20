@@ -24,7 +24,7 @@
 /****REVERT TO OLD UI, (all taken from the Vencord discord! Huge thank you to the users who posted these!)****/
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
 
-.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+.visual-refresh section.panels_c48ade {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px);
     left: var(--custom-guild-list-width);
     bottom: 20px;
