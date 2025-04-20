@@ -1,11 +1,11 @@
 /**
  * @name Chillax
- * @author Chillax Squad
- * @authorLink https://github.com/warrayquipsome/Chillax#Authors
+ * @author Chillax Squad, falcon
+ * @authorLink https://github.com/falc0n2222/Chillax#Authors
  * @version 2.1.0
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
- * @source https://github.com/warrayquipsome/Chillax
+ * @source https://github.com/falc0n2222/Chillax
 */
 
 /*
@@ -101,9 +101,9 @@
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 98, 3, 252;
+    --accentcolor: 94, 8, 194;
     /* chillax colours hex */
-    --accentcolorV2: #6109ee;
+    --accentcolorV2: #725396;
 
 
     /* settings modal root */
