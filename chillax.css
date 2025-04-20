@@ -167,7 +167,7 @@ span[class*="timestampInline_"] {
 
 /* Member list & Activity cards */
 .container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
-    background-color: rgba(40, 40, 40, 0.065) !important;
+    background-color: rgba(35, 35, 35, 0.05) !important;
     border-radius: 12px !important;
 }
 
@@ -181,7 +181,7 @@ span[class*="timestampInline_"] {
 }
 
 .container__0f2e8 {
-    background-color: rgba(35, 35, 35, 0.35) !important;
+    background-color: rgba(35, 35, 35, 0.3) !important;
 }
 
 /* Placeholder for unloaded messages */
