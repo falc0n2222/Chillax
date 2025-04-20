@@ -111,6 +111,12 @@ span[class*="timestampInline_"] {
     background: transparent;
 }
 
+/* Make notification badges match accent color */
+.lowerBadge_cc5dd2 .numberBadge__2b1f5 {
+    background-color: rgba(var(--accentcolor), 1) !important;
+    box-shadow: 0px 0px 5px 3px rgba(var(--accentcolor), 1) !important;
+}
+
 /*spotify controls error background*/
 .panels_c48ade span {
     background: transparent !important;
