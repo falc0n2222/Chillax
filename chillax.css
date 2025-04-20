@@ -24,14 +24,16 @@
 /****REVERT TO OLD UI, (all taken from the Vencord discord! Huge thank you to the users who posted these!)****/
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
 
-.visual-refresh section.panels_c48ade {
-  left: calc(var(--custom-guild-list-width) + var(--space-xs));
-  width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
-  box-sizing: content-box;
+.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+    width: calc(100% - var(--custom-guild-list-width) - var(--space-xs));
+    left: var(--custom-guild-list-width+0);
+    bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
 
-  .actionButtons_e131a9 button {
-    padding: 0;
-  }
+.visual-refresh nav[class*=guilds_] {
+  margin-bottom: unset;
 }
 nav.guilds_c48ade {
   margin-bottom: 0 !important;
