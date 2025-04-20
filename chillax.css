@@ -26,7 +26,7 @@
 
 .visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
     width: calc(100% - var(--custom-guild-list-width) - var(--space-xs));
-    left: var(--custom-guild-list-width+0);
+    left: var(--custom-guild-list-width);
     bottom: 20px;
     border-radius: 8px;
     border: none;
