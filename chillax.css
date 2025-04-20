@@ -52,10 +52,12 @@ span[class*="timestampInline_"] {
 }
 
 .visual-refresh {
-    --custom-channel-textarea-text-area-height: 56.3px;
+    --custom-channel-textarea-text-area-height: 56px;
     .form_f75fb0 {
-        margin: 0 8px 17.5px 8px;
-        padding: 0;
+        margin: -12px 8px 18px 6px;
+        padding: 0px;
+        transform: scaleY(0.976);
+        transform-origin: top;
         --chatbar-border-color: var(--border-faint);
     }
     .channelTextArea_f75fb0 {
