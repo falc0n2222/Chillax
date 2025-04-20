@@ -111,6 +111,11 @@ span[class*="timestampInline_"] {
     background: transparent;
 }
 
+/* Hide the annoying new button */
+.bar__3b95d, .unreadMentionsBar_ef3116, .mention__3b95d,.active__3b95d {
+    display: none !important;
+}
+
 /* Hide apps button in message box */
 .channelAppLauncher_e6e74f {
     display: none !important;
