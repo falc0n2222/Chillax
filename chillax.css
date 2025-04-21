@@ -167,7 +167,7 @@ span[class*="timestampInline_"] {
 
 /* Member list & Activity cards */
 .container_c8ffbb, .members_c8ffbb {
-    background-color: rgba(35, 35, 35, 0.01) !important;
+    background-color: rgba(25, 25, 25, 0.03) !important;
     border-left: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
@@ -201,7 +201,6 @@ span[class*="timestampInline_"] {
 
 /* Hide borders */
 .sidebarList_c48ade,
-.container_c8ffbb,
 .chat_f75fb0,
 .chatContent_f75fb0,
 .container__9293f,
