@@ -193,6 +193,23 @@ span[class*="timestampInline_"] {
     background-color: rgba(25, 25, 25, 0.04) !important;
 }
 
+/* Get rid of Discord's new nitro badges */
+div[aria-label^="Subscriber since"] img.badge__8061a {
+  display: none !important;
+}
+
+div[aria-label^="Subscriber since"] a::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 21px;
+  background-image: url("https://falc0n.gay/discord-nitro-badge.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
 /* Placeholder for unloaded messages */
 .wrapper_d852db,
 .wrapper_fc8177 {
