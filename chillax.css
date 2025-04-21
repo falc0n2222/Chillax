@@ -204,7 +204,6 @@ div[aria-label^="Subscriber since"] a::after {
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
-  margin-top: 2px;
 }
 
 /* Placeholder for unloaded messages */
