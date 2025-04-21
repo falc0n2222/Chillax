@@ -192,44 +192,49 @@ span[class*="timestampInline_"] {
 
 /* Get rid of Discord's new nitro badges */
 div[aria-label^="Subscriber since"] img.badge__8061a {
-  display: none !important;
+    display: none !important;
 }
 
 div[aria-label^="Subscriber since"] a::after {
-  content: "";
-  display: inline-block;
-  width: 22px;
-  height: 20px;
-  background-image: url("https://falc0n.gay/discord-nitro-badge.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background-image: url("https://falc0n.gay/discord-nitro-badge.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.container__8061a {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 4px;
 }
 
 /* Revert to the old badge layout as well */
 div[aria-label^="HypeSquad"] {
-  order: 1 !important;
+    order: 1 !important;
 }
 div[aria-label^="Active Developer"] {
-  order: 2 !important;
+    order: 2 !important;
 }
 div[aria-label^="Early Supporter"] {
-  order: 3 !important;
+    order: 3 !important;
 }
 div[aria-label^="Subscriber since"] {
-  order: 4 !important;
+    order: 4 !important;
 }
 div[aria-label^="Server boosting"] {
-  order: 5 !important;
+    order: 5 !important;
 }
 div[aria-label^="Originally known as"] {
-  order: 6 !important;
+    order: 6 !important;
 }
 div[aria-label^="Completed a Quest"] {
-  order: 7 !important;
+    order: 7 !important;
 }
 div[aria-label^="Discord Staff"] {
-  order: 8 !important;
+    order: 8 !important;
 }
 
 /* Placeholder for unloaded messages */
