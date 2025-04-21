@@ -166,12 +166,13 @@ span[class*="timestampInline_"] {
 }
 
 /* Member list & Activity cards */
-.container_c8ffbb {
-    background-color: rgba(25, 25, 25, 0.05) !important;
-    border-left: 1px solid rgba(255, 255, 255, 0.05) !important;
+.container_c8ffbb, .members_c8ffbb {
+    background-color: rgba(120, 86, 255, 0.012) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.055) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-.member_c8ffbb, .members_c8ffbb {
+.member_c8ffbb {
     background-color: transparent !important;
 }
 
