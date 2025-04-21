@@ -141,16 +141,6 @@ span[class*="timestampInline_"] {
     background: transparent !important;
 }
 
-/* Server list */
-.wrapper_ef3116 {
-    background-color: transparent !important;
-}
-
-/* Channel list */
-.container__2637a {
-    background-color: transparent !important;
-}
-
 .sidebarListRounded_c48ade {
     backdrop-filter: none !important;
 }
@@ -189,8 +179,15 @@ span[class*="timestampInline_"] {
     background-color: rgba(35, 35, 35, 0.3) !important;
 }
 
-.sidebarList_c48ade, .sidebarListRounded_c48ade {
-    background-color: rgba(25, 25, 25, 0.04) !important;
+/* Channel list + server list */
+.sidebarList_c48ade, .sidebarListRounded_c48ade, .container__2637a {
+  background-color: rgba(127, 96, 253, 0.015) !important; /* Light gray glassy tone */
+  border-right: 1px solid rgba(255, 255, 255, 0.055) !important;
+}
+
+.stack_dbd263, .wrapper_ef3116 {
+    background-color: rgba(127, 96, 253, 0.015) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.055) !important;
 }
 
 /* Get rid of Discord's new nitro badges */
