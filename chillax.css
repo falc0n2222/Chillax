@@ -201,11 +201,12 @@ div[aria-label^="Subscriber since"] img.badge__8061a {
 div[aria-label^="Subscriber since"] a::after {
   content: "";
   display: inline-block;
-  width: 26px;
+  width: 25px;
   height: 23px;
   background-image: url("https://falc0n.gay/discord-nitro-badge.png");
   vertical-align: middle;
-  margin-left: 2px;
+  margin-left: 1px;
+  margin-bottom: 1px; /* Fixes the badge from sometimes being slightly lower than all of the other badges */
 }
 
 /* Placeholder for unloaded messages */
