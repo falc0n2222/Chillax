@@ -167,12 +167,11 @@ span[class*="timestampInline_"] {
 
 /* Member list & Activity cards */
 .container_c8ffbb, .members_c8ffbb {
-    background-color: rgba(35, 35, 35, 0.03) !important;
+    background-color: rgba(35, 35, 35, 0.01) !important;
     border-left: 1px solid rgba(255, 255, 255, 0.05) !important;
-    border-radius: 12px !important;
 }
 
-.members_c8ffbb {
+.member_c8ffbb {
     background-color: transparent !important;
 }
 
