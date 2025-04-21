@@ -198,14 +198,13 @@ div[aria-label^="Subscriber since"] img.badge__8061a {
 div[aria-label^="Subscriber since"] a::after {
   content: "";
   display: inline-block;
-  width: 25px;
-  height: 23px;
+  width: 24px;
+  height: 22px;
   background-image: url("https://falc0n.gay/discord-nitro-badge.png");
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
-  margin-left: 1px;
-  margin-bottom: 1px; /* Fixes the badge from sometimes being slightly lower than all of the other badges, you can remove this if it makes everything look weird */
+  margin-top: 2px;
 }
 
 /* Placeholder for unloaded messages */
