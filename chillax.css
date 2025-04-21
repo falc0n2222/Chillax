@@ -189,9 +189,8 @@ span[class*="timestampInline_"] {
     background-color: rgba(35, 35, 35, 0.3) !important;
 }
 
-.content__99f8c {
-    background-color: rgba(25, 25, 25, 0.06) !important;
-    border-radius: 12px !important;
+.sidebarList_c48ade, .sidebarListRounded_c48ade {
+    background-color: rgba(25, 25, 25, 0.04) !important;
 }
 
 /* Placeholder for unloaded messages */
