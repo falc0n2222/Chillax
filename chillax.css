@@ -190,6 +190,11 @@ span[class*="timestampInline_"] {
     border-right: 1px solid rgba(255, 255, 255, 0.055) !important;
 }
 
+/* Name is kinda self explanatory, removes the resize handle for the channel sidebar because it's really not needed */
+.sidebarResizeHandle_c48ade{
+    display: none !important;
+}
+
 /* Get rid of Discord's new nitro badges */
 div[aria-label^="Subscriber since"] img.badge__8061a {
     display: none !important;
