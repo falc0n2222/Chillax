@@ -217,6 +217,10 @@ div[aria-label^="Subscriber since"] a::after {
     border-radius: 4px;
 }
 
+.chipletContainerInner__4a25c {
+    background-color: transparent !important;
+}
+
 /* Revert to the old badge layout as well */
 div[aria-label^="HypeSquad"] {
     order: 1 !important;
