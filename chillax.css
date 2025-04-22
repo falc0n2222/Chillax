@@ -295,8 +295,38 @@ div[aria-label^="Discord Staff"] {
 /* transparent role selection / browse channels / members page background */
 .container__9293f,
 .container__0b563,
-.container_c2efea {
+.container_c2efea,
+.visual-refresh .page_c791b2,
+.visual-refresh .mainTableContainer__09a38,
+.visual-refresh .container__0b563, .visual-refresh .header__0b563,
+.visual-refresh .pageBody__41ed7,
+.visual-refresh .channelRow_e4503a {
     background-color: transparent !important;
+}
+
+/* discover server section transparent background */
+.visual-refresh .container__551b0,
+.visual-refresh .scroller__23746 {
+    background-color: transparent !important;
+}
+
+.theme-dark .gradient_e9ef78 {
+    background: radial-gradient(130.66% 324.98% at -3.95% 0, #b41010 0, rgba(15, 28, 143, 0.8) 35.73%, rgba(8, 175, 16, 0) 100%), #000;
+}
+
+/* Transparent background for the shop, nitro page */
+.visual-refresh .shop__6db1d,
+.shopScroll__6db1d,
+.shop__08415,
+.pageWrapper__6db1d,
+.applicationStore_f07d62,
+.visual-refresh .homeWrapper__0920e,
+.allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
+    background: transparent !important;
+}
+
+.headerArtV2__3ce43 {
+    border-radius: 15px;
 }
 
 /**transparent part LVL II**/
