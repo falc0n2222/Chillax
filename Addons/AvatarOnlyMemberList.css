@@ -26,14 +26,17 @@ div:not(:hover) > .members_c8ffbb > div {
 
 .members_c8ffbb:hover {
     border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
+    /*margin-right: 15px;*/
+    margin-bottom: 15px;
 }
 
+/*We could for instance let user control the color via a css var*/
 .theme-light .members_c8ffbb:hover {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
 }
 
 .theme-dark .members_c8ffbb:hover {
-    background-color: #181a1ddd !important;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
 }
 
 /* Make the list fill the window height */
@@ -115,55 +118,55 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 /* Avatar-only DM profile */
-/* .outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) is the only way to select just the DM profile area */
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) {*/
+/* .outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) is the only way to select just the DM profile area */
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) {*/
 /*    !* Main transform *!*/
 /*    transform: translate(275px);*/
 /*    margin-left: -275px;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0),*/
-/*.inner_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout),*/
+/*.inner_c0bea0:not(.user-profile-modal):not(.user-profile-popout) {*/
 /*    transition: transform 0.5s ease, border-radius 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover,*/
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .inner_c0bea0 {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .inner_c0bea0 {*/
 /*    transform: none;*/
 /*    border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .banner__68edb {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .banner__68edb {*/
 /*    transition: border-radius 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .banner__68edb {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .banner__68edb {*/
 /*    border-top-left-radius: var(--memberlist-border-radius);*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .avatar__75742 {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .avatar__75742 {*/
 /*    !* Move profile picture out to still be visible when collapsed *!*/
 /*    transform: translate(-56px);*/
 /*    transition: transform 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .avatar__75742 {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .avatar__75742 {*/
 /*    transform: none;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .none_d125d2,*/
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .inner_c0bea0 {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .none_d125d2,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .inner_c0bea0 {*/
 /*    !* Disable scrolling to allow profile to overflow the outer element *!*/
 /*    overflow: visible !important;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .body__486c9,*/
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .overlay_c0bea0 {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .body_b32ca4,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .overlay_c0bea0 {*/
 /*    opacity: 0;*/
 /*    transition: opacity 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .body__486c9,*/
-/*.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .overlay_c0bea0 {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .body_b32ca4,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .overlay_c0bea0 {*/
 /*    opacity: 1;*/
 /*}*/
