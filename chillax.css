@@ -436,7 +436,7 @@ html.theme-light .lookFilled__201d5 {
 }
 
 .lookFilled__201d5:hover {
-    background: rgb(0, 0, 0) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
     transition: 0.1s;
 }
 
