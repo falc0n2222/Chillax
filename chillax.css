@@ -430,11 +430,6 @@ html.theme-light .scrollbar__506b3 {
     transition: 0.2s;
 }
 
-html.theme-dark .lookFilled__201d5 {
-    background: rgb(36, 36, 36) !important;
-    color: rgb(255, 255, 255) !important;
-}
-
 html.theme-light .lookFilled__201d5 {
     background: #fff !important;
     color: #000 !important;
