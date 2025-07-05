@@ -113,7 +113,7 @@ span[class*="timestampInline_"] {
 }
 
 /* Hide the annoying new button */
-.bar__3b95d, .unreadMentionsBar_ef3116, .mention__3b95d,.active__3b95d {
+.bar__3b95d, .unreadMentionsBar_ef3116, .mention__3b95d, .active__3b95d {
     display: none !important;
 }
 
@@ -152,7 +152,7 @@ span[class*="timestampInline_"] {
 }
 
 /* Make notification badges match accent color */
-.lowerBadge_cc5dd2 .numberBadge__2b1f5 {
+.lowerBadge_cc5dd2, .numberBadge__2b1f5 {
     background-color: rgba(var(--accentcolor), 1) !important;
     box-shadow: 0px 0px 5px 3px rgba(var(--accentcolor), 1) !important;
 }
