@@ -117,6 +117,11 @@ span[class*="timestampInline_"] {
     display: none !important;
 }
 
+/* Forums background fix */
+.container_faa96b, .mainCard_f369db {
+    background-color: transparent !important;
+}
+
 /* Hide apps button in message box */
 .channelAppLauncher_e6e74f {
     display: none !important;
