@@ -122,6 +122,11 @@ span[class*="timestampInline_"] {
     background-color: transparent !important;
 }
 
+/* Find or start a conversation search channel thingy transparent background */
+.button__201d5 {
+    background-color: transparent !important;
+}
+
 /* Hide apps button in message box */
 .channelAppLauncher_e6e74f {
     display: none !important;
