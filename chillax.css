@@ -127,6 +127,11 @@ span[class*="timestampInline_"] {
     background-color: transparent !important;
 }
 
+/* Active now transparent background */
+.itemCard__7e549, .wrapper__00943, .outer_bf1984, .padded_bf1984, .interactive_bf1984 {
+    background-color: transparent !important;
+}
+
 /* Hide apps button in message box */
 .channelAppLauncher_e6e74f {
     display: none !important;
