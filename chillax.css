@@ -208,6 +208,17 @@ span[class*="timestampInline_"] {
     background-color: rgba(35, 35, 35, 0.3) !important;
 }
 
+/* Fix Forum Reaction Colors */
+.reactionMe_f8896c {
+    background-color: rgba(101, 79, 121, 0.301) !important;
+}
+
+/* Made the no permission dialog for creating forums to the left so it can be seen more easily */
+.startPostHelp_f369db {
+    position: absolute !important;
+    left: 18.2px !important;
+}
+
 /* Channel list + server list */
 .sidebarList_c48ade, .sidebarListRounded_c48ade, .container__2637a {
   background-color: rgba(127, 96, 253, 0.015) !important; /* Light gray glassy tone */
