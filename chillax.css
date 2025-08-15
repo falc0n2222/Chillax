@@ -10,8 +10,8 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/AccountDetailsGrid.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
-@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 
 /****CHILLAX COMPONENTS****/
 @import url('https://raw.githubusercontent.com/falc0n2222/Chillax/refs/heads/main/Components/WindowsButtons.css');
@@ -1565,7 +1565,7 @@ html.theme-light .inline {
 
 /*disable and delete account button design*/
 .children__7bffb .colorRed__201d5 {
-    width: 140px;
+    /*width: 140px;*/
     height: 45px;
     font-family: "Roboto" !important;
     text-transform: uppercase;
@@ -1604,9 +1604,9 @@ html.theme-light .children__7bffb .colorRed__201d5:hover {
     color: rgb(255, 255, 255) !important;
 }
 
-.children__7bffb .colorRed__201d5 {
-    font-size: 0px !important;
-}
+/*.children__7bffb .colorRed__201d5 {*/
+/*    font-size: 0px !important;*/
+/*}*/
 
 .children__7bffb .disableButton_d286c5.colorRed__201d5::before {
     content: "Disable";
@@ -3094,4 +3094,17 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 /* Fix for VC call items bg */
 .buttonSection__1405b {
     background: none !important;
+}
+
+/* transparent background fix for new `Boost Goal Page` */
+.container__89463 {
+    background-color: transparent !important;
+}
+
+.contentContainer__89463{
+    background-color: transparent !important;
+}
+
+.sidebarContainer__89463 {
+    background-color: transparent !important;
 }
