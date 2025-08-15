@@ -137,7 +137,7 @@ span[class*="timestampInline_"] {
 }
 
 /* Active now transparent background */
-.itemCard__7e549, .wrapper__00943, .outer_bf1984, .padded_bf1984, .interactive_bf1984 {
+.itemCard__7e549 .wrapper__00943 .outer_bf1984, .padded_bf1984 .interactive_bf1984 .container__7641b {
     background-color: transparent !important;
 }
 
