@@ -137,8 +137,10 @@ span[class*="timestampInline_"] {
 }
 
 /* Active now transparent background */
-.itemCard__7e549 .wrapper__00943 .outer_bf1984, .padded_bf1984 .interactive_bf1984 {
-    background-color: transparent !important;
+.itemCard__7e549 {
+    background-color: rgba(120, 86, 255, 0.010) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.055) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 /* Hide apps button in message box */
@@ -1848,10 +1850,6 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 /*active now*/
 .heading-lg-medium-3gUJeM {
     text-align: center;
-}
-
-html.theme-dark .itemCard__7e549.wrapper__00943 {
-    background: rgb(25, 25, 26);
 }
 
 html.theme-light .itemCard__7e549.wrapper__00943 {
