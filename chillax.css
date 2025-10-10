@@ -48,7 +48,7 @@ span[class*="timestampInline_"] time::before {
 }
 
 span[class*="timestampInline_"] {
-  font-size: 0px !important;
+  font-size: 12px !important;
 }
 
 .visual-refresh {
