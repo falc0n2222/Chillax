@@ -500,13 +500,13 @@ span[class="inner-26JK4f"] > * {
 /* member list and friend DMs hover effect */
 .clickable__91a9d:hover,
 .interactive_bf202d:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.2s;
 }
 
 .clickable__91a9d,
 .interactive_bf202d {
-    transition: all 0.3s;
+    transition: all 0.15s;
 }
 
 /*recolor search*/
