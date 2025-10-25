@@ -55,9 +55,9 @@ span[class*="timestampInline_"] {
 .visual-refresh {
     --custom-channel-textarea-text-area-height: 56px;
     .form_f75fb0 {
-        margin: -6px 8px 18px 6px;
+        margin: -6px 8px 17px 6px;
         padding: 1px;
-        transform: scaleY(1.019);
+        transform: scaleY(1) !important;
         transform-origin: bottom;
         --chatbar-border-color: var(--border-faint);
     }
