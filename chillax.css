@@ -62,7 +62,7 @@ span[class*="timestampInline_"] {
         --chatbar-border-color: var(--border-faint);
     }
     
-    .channelBottomBarArea_f75fb0 {
+    .channelTextArea_f75fb0 {
         margin: 0px;
         border-color: var(--chatbar-border-color);
         background-color: rgba(255, 255, 255, 0.001) !important;
