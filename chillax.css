@@ -27,7 +27,7 @@
 .visual-refresh section.panels_c48ade {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px) !important;
     left: calc(var(--custom-guild-list-width) + 6px) !important;
-    bottom: 20px !important;
+    bottom: 18px !important;
     border-radius: 12px !important;
     border: 1px solid var(--border-subtle) !important;
 }
@@ -55,20 +55,22 @@ span[class*="timestampInline_"] {
 .visual-refresh {
     --custom-channel-textarea-text-area-height: 56px;
     .form_f75fb0 {
-        margin: -12px 8px 18px 6px;
-        padding: 0px;
-        transform: scaleY(0.978);
-        transform-origin: top;
+        margin: -6px 8px 18px 6px;
+        padding: 1px;
+        transform: scaleY(1.019);
+        transform-origin: bottom;
         --chatbar-border-color: var(--border-faint);
     }
-    .channelTextArea_f75fb0 {
+    
+    .channelBottomBarArea_f75fb0 {
         margin: 0px;
         border-color: var(--chatbar-border-color);
-        background-color: rgba(255, 255, 255, 0.07) !important;
+        background-color: rgba(255, 255, 255, 0.001) !important;
         transition: none;
     }
+    
     .base_b88801 {
-        top: -24px;
+        top: -24px !important;
         left: 0;
         right: 0;
         background-color: var(--chat-background-default);
