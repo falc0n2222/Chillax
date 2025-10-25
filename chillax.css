@@ -56,7 +56,7 @@ span[class*="timestampInline_"] {
     --custom-channel-textarea-text-area-height: 56px;
     .form_f75fb0 {
         margin: -6px 8px 18px 6px;
-        padding: 1px;
+        padding: 0px;
         transform: scaleY(1.019);
         transform-origin: bottom;
         --chatbar-border-color: var(--border-faint);
@@ -65,12 +65,12 @@ span[class*="timestampInline_"] {
     .channelTextArea_f75fb0 {
         margin: 0px;
         border-color: var(--chatbar-border-color);
-        background-color: rgba(255, 255, 255, 0.001) !important;
+        background-color: rgba(255, 255, 255, 0.07) !important;
         transition: none;
     }
     
     .base_b88801 {
-        top: -24px !important;
+        top: -24px;
         left: 0;
         right: 0;
         background-color: var(--chat-background-default);
