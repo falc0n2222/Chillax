@@ -52,6 +52,10 @@ span[class*="timestampInline_"] {
   font-size: 12px !important;
 }
 
+.typing_b88801, .base_b88801, .inTextChannel_b88801 {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
 .visual-refresh {
     --custom-channel-textarea-text-area-height: 56px;
     .form_f75fb0 {
