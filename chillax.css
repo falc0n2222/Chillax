@@ -28,8 +28,8 @@
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px) !important;
     left: calc(var(--custom-guild-list-width) + 6px) !important;
     bottom: 20px !important;
-    border-radius: 8.2px !important;
-    border: none !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--border-subtle) !important;
 }
 
 .visual-refresh nav[class*=guilds_] {
