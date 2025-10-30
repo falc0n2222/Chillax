@@ -176,7 +176,7 @@ span[class*="timestampInline_"] {
 }
 
 /*spotify controls error background*/
-.panels_c48ade span {
+.panels__5e434 span {
     background: transparent !important;
 }
 
@@ -318,6 +318,7 @@ div[aria-label^="Discord Staff"] {
 
 /* Hide borders */
 .sidebarList__5e434,
+.container_c8ffbb,
 .chat_f75fb0,
 .chatContent_f75fb0,
 .container__9293f,
@@ -1251,7 +1252,7 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
 }
 
 /*remove those annoying shadow on top of the chats*/
-.searchBar__35e86,
+.searchBar_e6b769,
 .header_f37cb1 {
     box-shadow: none;
 }
@@ -2864,7 +2865,7 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
 /* End to time stamp */
 
 /*sidebar server name border radius fix*/
-.sidebar_c48ade {
+.sidebar__5e434 {
     border-radius: 0px !important;
 }
 
