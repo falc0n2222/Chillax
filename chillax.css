@@ -180,6 +180,16 @@ span[class*="timestampInline_"] {
     background: transparent !important;
 }
 
+/* Server list */
+.wrapper_ef3116 {
+    background-color: transparent !important;
+}
+
+/* Channel list */
+.container__2637a {
+    background-color: transparent !important;
+}
+
 .sidebarListRounded__5e434 {
     backdrop-filter: none !important;
 }
@@ -1101,7 +1111,7 @@ html.theme-light {
 }
 
 /*custom popout window*/
-.content_c48ade {
+.content__5e434 {
     margin: var(--window-margin);
     /* Leave space for title bar's padding */
     margin-top: 4px;
@@ -3085,7 +3095,7 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 /* Side bar transparency fix */
 /* Maybe a temp fix but I don't have much
  time to look into in details */
-.privateChannels__35e86 {
+.privateChannels_e6b769 {
     background: transparent !important;
 }
 
