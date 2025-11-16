@@ -296,6 +296,9 @@ div[aria-label^="Early Supporter"] {
 .container__8061a > div:not([aria-label]) {
     order: 4 !important;
 }
+div[aria-label^="Subscriber since"] { /* This one is for classic nitro users */
+    order: 4 !important;
+}
 div[aria-label^="Server boosting"] {
     order: 5 !important;
 }
