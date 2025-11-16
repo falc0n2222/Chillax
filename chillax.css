@@ -263,15 +263,22 @@ span[class*="timestampInline_"] {
 .container__8061a > div:not([aria-label]) img.badge__8061a {
     display: none !important;
 }
+
+.container__8061a > div:not([aria-label]) a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 20px;
+}
+
 .container__8061a > div:not([aria-label]) a::after {
     content: "";
-    display: inline-block;
-    width: 22px;
+    width: 20px;
     height: 20px;
     background-image: url("https://falc0n.gay/discord-nitro-badge.png");
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align: middle;
 }
 
 .container__8061a {
