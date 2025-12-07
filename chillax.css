@@ -135,7 +135,7 @@ span[class*="timestampInline_"] {
 }
 
 /* Find or start a conversation search channel thingy transparent background */
-.button__201d5, .lookFilled__201d5, .colorPrimary__201d5, .sizeSmall__201d5, .fullWidth__201d5, .grow__201d5 {
+.buttonChildrenWrapper_a22cb0 {
     background-color: rgba(255, 255, 255, 0.046) !important;
 }
 
