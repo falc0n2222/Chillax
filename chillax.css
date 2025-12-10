@@ -260,11 +260,11 @@ span[class*="timestampInline_"] {
 } */
 
 /* Get rid of Discord's new nitro badges */
-.container__8061a > div:not([aria-label]) img.badge__8061a {
+.container__8061a > div[aria-label^="Subscriber since"] img.badge__8061a {
     display: none !important;
 }
 
-.container__8061a > div:not([aria-label]) a::after {
+.container__8061a > div[aria-label^="Subscriber since"] a::after {
     content: "";
     display: inline-block;
     width: 22px;
