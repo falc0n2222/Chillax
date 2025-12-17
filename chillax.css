@@ -124,6 +124,25 @@ span[class*="timestampInline_"] {
     display: none !important;
 }
 
+/* Settings redesign */
+.e9e3ed8b8badfe05-content {
+    background-color: rgba(120, 86, 255, 0.010) !important;
+    backdrop-filter: blur(5px) !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+._409aa1aeee28d5f7-sidebar {
+    background-color: rgba(228, 222, 250, 0.041) !important;
+    backdrop-filter: blur(5px) !important;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.e9e3ed8b8badfe05-contentHeader {
+    background-color: transparent !important;
+    backdrop-filter: blur(12px) !important;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
 /* Forums background fix */
 .faa96b2163f6a142-container, .f369dba7416c67f0-mainCard {
     background-color: transparent !important;
