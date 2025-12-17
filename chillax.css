@@ -215,7 +215,6 @@ span[class*="timestampInline_"] {
     background: transparent !important;
 }
 
-.member_c8ffbb {
 /* Member list */
 .c8ffbb79449f399c-container, .c8ffbb79449f399c-members, .c8ffbb79449f399c-member {
     background-color: transparent !important;
@@ -3175,7 +3174,7 @@ html.theme-light ._2ea32c412048f708-modeSelected ._2ea32c412048f708-name {
 /* Transparency fix for 'chatGradient' area newly introduced by Discord */
 
 ._36d072eab2b2e737-chatGradient {
-    background: transparent !important
+    background: transparent !important;
 }
 
 ._36d072eab2b2e737-chatTypingGradientAtBottom {
