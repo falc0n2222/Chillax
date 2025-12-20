@@ -305,31 +305,31 @@ span[class*="timestampInline_"] {
 }
 
 /* Revert to the old badge layout as well */
-div[aria-label^="HypeSquad"] {
+a[aria-label^="HypeSquad"] {
     order: 1 !important;
 }
-div[aria-label^="Active Developer"] {
+a[aria-label^="Active Developer"] {
     order: 2 !important;
 }
-div[aria-label^="Early Supporter"] {
+a[aria-label^="Early Supporter"] {
     order: 3 !important;
 }
-.container__8061a > div:not([aria-label]) {
+._8061a5f9dbf6d829-container > div:not([aria-label]) {
     order: 4 !important;
 }
-div[aria-label^="Subscriber since"] { /* This one is for classic nitro users */
+a[aria-label^="Subscriber since"] { /* This one is for classic nitro users */
     order: 4 !important;
 }
-div[aria-label^="Server boosting"] {
+a[aria-label^="Server boosting"] {
     order: 5 !important;
 }
-div[aria-label^="Originally known as"] {
+a[aria-label^="Originally known as"] {
     order: 6 !important;
 }
-div[aria-label^="Completed a Quest"] {
+a[aria-label^="Completed a Quest"] {
     order: 7 !important;
 }
-div[aria-label^="Discord Staff"] {
+a[aria-label^="Discord Staff"] {
     order: 8 !important;
 }
 
