@@ -280,11 +280,11 @@ span[class*="timestampInline_"] {
 } */
 
 /* Get rid of Discord's new nitro badges */
-._8061a5f9dbf6d829-container > div[aria-label^="Subscriber since"] img._8061a5f9dbf6d829-badge {
+._8061a5f9dbf6d829-container a[aria-label^="Subscriber since"] img._8061a5f9dbf6d829-badge {
     display: none !important;
 }
 
-._8061a5f9dbf6d829-container > div[aria-label^="Subscriber since"] a::after {
+._8061a5f9dbf6d829-container a[aria-label^="Subscriber since"]::after {
     content: "";
     display: inline-block;
     width: 22px;
