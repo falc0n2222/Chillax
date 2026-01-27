@@ -4,7 +4,7 @@
 }
 
 .leading_c38106::before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ f a l c o n";
     font-size: 12px;
     font-weight: 900;
     font-family: "Poiret one" !important;
@@ -19,7 +19,7 @@
 }
 
 .leading_c38106:hover::before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ f a l c o n";
     letter-spacing: 2px;
 }
 
