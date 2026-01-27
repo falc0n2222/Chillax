@@ -24,7 +24,7 @@
 /****REVERT TO OLD UI, (all taken from the Vencord discord! Huge thank you to the users who posted these!)****/
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
 
-.visual-refresh section._5e434347c823b592-panels {
+.visual-refresh section.panels__5e434 {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px) !important;
     left: calc(var(--custom-guild-list-width) + 6px) !important;
     bottom: 18px !important;
@@ -36,10 +36,10 @@
   margin-bottom: unset;
 }
 
-nav._5e434347c823b592-guilds {
+nav.guilds__5e434 {
   margin-bottom: 0 !important;
 }
-._5e434347c823b592-sidebar:after {
+.sidebar__5e434:after {
   display: none;
 }
 
@@ -52,13 +52,13 @@ span[class*="timestampInline_"] {
   font-size: 12px !important;
 }
 
-.b8880176888cc928-typing, .b8880176888cc928-base, .b8880176888cc928-inTextChannel {
+.typing_b88801, .base_b88801, .inTextChannel_b88801 {
     background-color: rgba(255, 255, 255, 0.04) !important;
 }
 
 .visual-refresh {
     --custom-channel-textarea-text-area-height: 56px;
-    .f75fb00fb7356cbe-form {
+    .form_f75fb0 {
         margin: -6px 8px 17px 6px;
         padding: 1px;
         transform: scaleY(1) !important;
@@ -66,14 +66,14 @@ span[class*="timestampInline_"] {
         --chatbar-border-color: var(--border-faint);
     }
     
-    .f75fb00fb7356cbe-channelTextArea {
+    .channelTextArea_f75fb0 {
         margin: 0px;
         border-color: rgba(255, 255, 255, 0.07) !important;
         background-color: rgba(255, 255, 255, 0.07) !important;
         transition: none;
     }
     
-    .b8880176888cc928-base {
+    .base_b88801 {
         top: -24px;
         left: 0;
         right: 0;
@@ -85,28 +85,28 @@ span[class*="timestampInline_"] {
         transition: none;
         box-sizing: border-box;
     }
-    ._740174f3d6a2c8fe-stackedBars,
-    ._841c8f861f7b2704-threadSuggestionBar {
+    .stackedBars__74017,
+    .threadSuggestionBar__841c8 {
         border-color: var(--chatbar-border-color) !important;
     }
-    .f75fb00fb7356cbe-form:has(.b8880176888cc928-base) {
-        .f75fb00fb7356cbe-channelTextArea {
+    .form_f75fb0:has(.base_b88801) {
+        .channelTextArea_f75fb0 {
             border-radius: 0 0 var(--radius-sm) var(--radius-sm);
         }
     }
-    .f75fb00fb7356cbe-form:has(._740174f3d6a2c8fe-channelTextArea:focus-within) {
+    .form_f75fb0:has(.channelTextArea__74017:focus-within) {
         --chatbar-border-color: var(--border-subtle);
     }
-    ._36d072eab2b2e737-scrollerSpacer {
+    .scrollerSpacer__36d07 {
         height: calc(24px + 8px);
     }
-    ._36d072eab2b2e737-scroller::-webkit-scrollbar-track {
+    .scroller__36d07::-webkit-scrollbar-track {
         margin-bottom: calc(20px + 8px);
     }
-    ._0f481cbbd7530492-bottomBar {
+    .bottomBar__0f481 {
         margin-bottom: 24px;
     }
-    ._44df51b030bd5ece-wrapper {
+    .wrapper__44df5 {
         margin: 0;
         border-radius: var(--radius-sm);
     }
@@ -115,71 +115,71 @@ span[class*="timestampInline_"] {
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
-.forumOrHome_ff5f90 {
+.forumOrHome__49676 {
     background: transparent;
 }
 
 /* Hide the annoying new button */
-._3b95d7d910416e54-bar, .ef3116c2da186559-unreadMentionsBar, ._3b95d7d910416e54-mention, ._3b95d7d910416e54-active {
+.bar__3b95d, .unreadMentionsBar_ef3116, .mention__3b95d, .active__3b95d {
     display: none !important;
 }
 
 /* Settings redesign */
-.e9e3ed8b8badfe05-content {
+.content_e9e3ed {
     background-color: rgba(120, 86, 255, 0.010) !important;
     backdrop-filter: blur(5px) !important;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-._409aa1aeee28d5f7-sidebar {
+.sidebar__409aa {
     background-color: rgba(228, 222, 250, 0.041) !important;
     backdrop-filter: blur(5px) !important;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 
-.e9e3ed8b8badfe05-contentHeader {
+.contentHeader_e9e3ed {
     background-color: transparent !important;
     backdrop-filter: blur(12px) !important;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 
 /* Forums background fix */
-.faa96b2163f6a142-container, .f369dba7416c67f0-mainCard {
+.container_faa96b, .mainCard_f369db {
     background-color: transparent !important;
 }
 
 /* ctrl+k menu */
-._8a031a135bfcb9ba-container {
+.container__8a031 {
     background-color: rgba(120, 86, 255, 0.010) !important;
 }
 
 /* Find or start a conversation search channel thingy transparent background */
-.a22cb0c66246f5d3-buttonChildrenWrapper {
+.buttonChildrenWrapper_a22cb0 {
     background-color: rgba(255, 255, 255, 0.046) !important;
 }
 
 /* Search bar thing transparent background */
-._5ec2fb8b5de26b21-searchBar, .container_a45028, .medium_a45028 {
+.searchBar__5ec2f, .container_a45028, .medium_a45028 {
     background-color: transparent !important;
 }
 
-.ac6cb02cd15b4b3b-scroller {
+.scroller_ac6cb0 {
     background-color: transparent !important;
 }
 
 /* Active now transparent background */
-._7e549558f336cddb-itemCard {
+.itemCard__7e549 {
     background-color: rgba(120, 86, 255, 0.010) !important;
     border-left: 1px solid rgba(255, 255, 255, 0.055) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 /* Hide apps button in message box */
-.e6e74fd4d1221f53-button {
+.button_e6e74f {
     display: none !important;
 }
 
-.f02135b221cc85a6-chat, ._01ae244280823725-container, ._01ae244280823725-chatLayerWrapper {
+.chat_f02135, .container__01ae2, .chatLayerWrapper__01ae2 {
     background-color: transparent !important;
 }
 
@@ -189,7 +189,7 @@ span[class*="timestampInline_"] {
 }
 
 /* Make notification badges match accent color */
-.cc5dd25190031396-lowerBadge, ._2b1f52e43a8f1c02-numberBadge {
+.lowerBadge_cc5dd2, .numberBadge__2b1f5 {
     background-color: rgba(var(--accentcolor), 1) !important;
     box-shadow: 0px 0px 5px 3px rgba(var(--accentcolor), 1) !important;
 }
@@ -224,13 +224,13 @@ span[class*="timestampInline_"] {
 }
 
 /* Member list & Activity cards */
-.c8ffbb79449f399c-container, .c8ffbb79449f399c-members {
+.container_c8ffbb, .members_c8ffbb {
     background-color: rgba(120, 86, 255, 0.010) !important;
     border-left: 1px solid rgba(255, 255, 255, 0.055) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-._7641b507c6cdbb10-container {
+.container__7641b {
     background: transparent !important;
 }
 
@@ -240,36 +240,36 @@ span[class*="timestampInline_"] {
 }
 
 /* Activity Card blur */
-.af3b89684c536957-popoutContentWrapper {
+.popoutContentWrapper_af3b89 {
     background-color: rgba(30, 30, 30, 0.5) !important;
 }
 
-.af3b89684c536957-interactionsContainer {
+.interactionsContainer_af3b89 {
     background-color: rgba(30, 30, 30, 0.5) !important;
 }
 
-._0f2e83213c878a13-container {
+.container__0f2e8 {
     background-color: rgba(35, 35, 35, 0.3) !important;
 }
 
 /* Fix Forum Reaction Colors */
-.f8896c4f6be18f59-reactionMe {
+.reactionMe_f8896c {
     background-color: rgba(101, 79, 121, 0.301) !important;
 }
 
 /* Made the no permission dialog for creating forums to the left so it can be seen more easily */
-.f369dba7416c67f0-startPostHelp {
+.startPostHelp_f369db {
     position: absolute !important;
     left: 18.2px !important;
 }
 
 /* Channel list + server list */
-._5e434347c823b592-sidebarList, ._5e434347c823b592-sidebarListRounded, ._2637a2609f343032-container {
+.sidebarList__5e434, .sidebarListRounded__5e434, .container__2637a {
   background-color: rgba(127, 96, 253, 0.015) !important; /* Light gray glassy tone */
   border-right: 1px solid rgba(255, 255, 255, 0.055) !important;
 }
 
-.dbd2630aec71879b-stack, .ef3116c2da186559-wrapper {
+.stack_dbd263, .wrapper_ef3116 {
     background-color: rgba(127, 96, 253, 0.015) !important;
     border-right: 1px solid rgba(255, 255, 255, 0.055) !important;
 }
@@ -280,11 +280,11 @@ span[class*="timestampInline_"] {
 } */
 
 /* Get rid of Discord's new nitro badges */
-._8061a5f9dbf6d829-container a[aria-label^="Subscriber since"] img._8061a5f9dbf6d829-badge {
+.container__8061a a[aria-label^="Subscriber since"] img.badge__8061a {
     display: none !important;
 }
 
-._8061a5f9dbf6d829-container a[aria-label^="Subscriber since"]::after {
+.container__8061a a[aria-label^="Subscriber since"]::after {
     content: "";
     display: inline-block;
     width: 22px;
@@ -295,12 +295,12 @@ span[class*="timestampInline_"] {
     vertical-align: middle;
 }
 
-._8061a5f9dbf6d829-container {
+.container__8061a {
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-radius: 4px;
 }
 
-._10651c5cfe637db6-chipletContainerInner {
+.chipletContainerInner__10651 {
     background-color: transparent !important;
 }
 
