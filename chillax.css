@@ -22,7 +22,7 @@
 @import url('https://warrayquipsome.github.io/Chillax/Components/EmojiPicker.css');
 
 /****REVERT TO OLD UI, (all taken from the Vencord discord! Huge thank you to the users who posted these!)****/
-@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+@import url("https://raw.githubusercontent.com/scattagain/VencordStuff/4fa465629d6d71092c20aa11245abb6ad4a44641/css/GuildbarRevert.css");
 
 .visual-refresh section.panels__5e434 {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - 8px) !important;
