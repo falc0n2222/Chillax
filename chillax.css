@@ -314,7 +314,7 @@ a[aria-label^="Active Developer"] {
 a[aria-label^="Early Supporter"] {
     order: 3 !important;
 }
-._8061a5f9dbf6d829-container > div:not([aria-label]) {
+.container__8061a > div:not([aria-label]) {
     order: 4 !important;
 }
 a[aria-label^="Subscriber since"] { /* This one is for classic nitro users */
