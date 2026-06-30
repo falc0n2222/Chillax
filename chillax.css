@@ -333,6 +333,56 @@ a[aria-label^="Discord Staff"] {
     order: 8 !important;
 }
 
+/* Fix for help button being misaligned by a few pixels */
+.anchorUnderlineOnHover_edefb8 {
+    position: relative;
+    top: 4px;
+    background: none !important;
+}
+
+/* "Find or start a conversation" button background transparency fix */
+html.theme-dark .button_a22cb0,
+html.theme-dark .button_a22cb0 * {
+    background: rgb(0 0 0 / 0%) !important;
+    color: rgb(215, 207, 226) !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Remove unread messages bubble next to server for a cleaner look 
+.wrapper__58105,
+.overlay__58105 {
+    visibility: hidden;
+} 
+*/
+
+/* Boost goal background transparency fix */
+.progressContainer__0d0f9 {
+    background: rgba(0, 0, 0, 0.13) !important;
+}
+
+/* A very weird fix for the search bar always being expanded */
+.search__49676:not(:focus-within) {
+    padding-left: 280px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden !important;
+}
+
+.search__49676:not(:focus-within) .DraftEditor-root,
+.search__49676:not(:focus-within) .DraftEditor-editorContainer {
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+}
+
+.search__49676:not(:focus-within) .icon_c322aa {
+    position: absolute !important;
+    right: -80% !important;
+    transform: translateX(-50%) !important;
+}
+
 /* Placeholder for unloaded messages */
 .wrapper_d852db,
 .wrapper_fc8177 {
@@ -2940,7 +2990,7 @@ html.theme-light .fieldSpacerBottom__1fed1 {
 /* Notification Settings/Quick Switcher background */
 .quickswitcher_ac6cb0, .root__49fc1 {
     border-radius: 8px;
-    background-color: #18191ba6;
+    /* background-color: #18191ba6; */
     backdrop-filter: blur(15px);
 }
 
